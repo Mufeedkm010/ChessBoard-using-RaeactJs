@@ -1,0 +1,33 @@
+.square {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .white {
+    background-color: white;
+  }
+  
+  .black {
+    background-color: #92b861;
+  }
+  
+  .piece-button {
+    background: none;
+    border: none;
+  }
+  
+  .piece-button:hover .piece {
+    transform: scale(1.2);
+    transition: transform 0.2s ease;
+  }
+  
+  .piece {
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
